@@ -61,7 +61,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     const form = event.target;
     var param = {
-      name: document.getElementById('name').value,
+      from_name: document.getElementById('name').value,
       email_id: document.getElementById('email_id').value,
       message: document.getElementById('message').value,
     }
